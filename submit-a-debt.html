@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Debt</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/FA.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <!-- Go to top -->
+    <div id="return-to-top"><i class="fa fa-angle-up"></i></div>
+
+    <!-- ===== HEADER ===== -->
+    <nav class="cd-navheader navbar navbar-expand-lg navbar-dark py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html" title="DEBTcheck">
+                <img src="images/logo.webp" class="img-fluid cd-logo" alt="DEBTcheck"/>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item">
+                        <a class="cd-navregisterBtn btn btn-light ms-lg-2" href="submit-a-debt.html">SUBMIT A DEBT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Company or individual -->
+    <section class="cd-submitDebt">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="cd-card">
+                        <div class="cd-sectiontitle" data-aos="fade-up" data-aos-duration="1000">
+                            <h2 class="titleh2">Company or individual</h2>
+                            <p class="helper mt-3">Company or Individual you are reporting</p>
+                            <p>All the information in <strong>Step 1</strong> is on the Company or Individual you are reporting.<br> <strong>YOU ARE NOT reporting your personal information here.</strong></p>
+                        </div>
+                        <!-- 1 -->
+                        <div class="cd-acfFieldMessage section">
+                            <h2>Name of Company or Individual you are reporting:</h2>
+                            <p class="cd-subtxt">– If you have more than one Company or Individual named in your report, or if the company goes by more than one name (AKA’s), put the other names in the “Other Name’s” box</p>
+                            <div class="grid">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="Name of Company or Individual">
+                                    <label for="">Name of Company or Individual <span class="cd-star">*</span></label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="Aditional names (AKA's)">
+                                    <label for="">Aditional names (AKA's)</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="cd-acfFieldMessage section">
+                            <h2>What is the Amount of the Debt owed by this company or individual?</h2>
+                            <p class="cd-subtxt">– Enter the amount that a company or individual owe to you</p>
+                            <div class="grid">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="Amount">
+                                    <label for="">Amount ($)</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="cd-acfFieldMessage section">
+                            <h2>Web address of the Company or Individual on the Internet:</h2>
+                            <p class="cd-subtxt">– If the Company or Individual is on the Internet and only on-line based, enter a web address below.</p>
+                            <div class="grid">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="Web Address">
+                                    <label for="">Web Address</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="Facebook">
+                                    <label for="">Facebook</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="Yelp">
+                                    <label for="">Yelp</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="Google+">
+                                    <label for="">Google+</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 4 -->
+                        <div class="cd-acfFieldMessage section">
+                            <h2>Address of Company or Individual you are reporting:</h2>
+                            <p class="cd-subtxt">– You must enter either a physical street address and/or a web address.</p>
+                            <p class="cd-subtxt">– You may enter both, BUT If the Company or Individual is on the Internet and only on-line based, or you don’t have a physical address, you MUST enter their Web address</p>
+                            <div class="grid">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="physical (street) address only, city and state go below">
+                                    <label for="">Street Address physical (street) address only, city and state go below</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="City">
+                                    <label for="">City</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="State / Province">
+                                    <label for="">State / Province</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="Zip Code (optional)">
+                                    <label for="">Zip Code (optional)</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="Country">
+                                    <label for="">Country</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 5 -->
+                        <div class="cd-acfFieldMessage section">
+                            <h2>Phone, and e-mail address of Company or Individual you are reporting:</h2>
+                            <p class="cd-subtxt">– This information is not required, but they are good tools for sympathetic Consumers to let the Company or Individual know how they feel about what they did to you and will only help your situation</p>
+                            <p class="cd-subtxt">– This information may also be helpful to other victims reading your Debt Check</p>
+                            <p class="cd-subtxt">– The more information you provide, the better.</p>
+                            <div class="grid">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="Phone">
+                                    <label for="">Phone</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="" placeholder="E-mail Address">
+                                    <label for="">E-mail Address</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 6 -->
+                        <div class="cd-acfFieldMessage section">
+                            <h2>Debt Report</h2>
+                            <p class="cd-subtxt">To help format our reports to be more easily read: <br><strong>PLEASE….</strong></p>
+                            <div class="alert alert-danger" role="alert">
+                                <strong>DO NOT</strong></span> use ALL CAPITAL LETTERS, it makes it hard to read. <br/>
+                                <strong>DO NOT</strong></span> indent paragraphs.<br/>
+                                <strong>DO NOT</strong></span> write your report all in one paragraph. Use 2 or 3 sentences to each paragraph and leave a space between each paragraph.<br/>
+                                <strong>DO NOT</strong></span> sign your name, or include any e-mail addresses in the report.
+                            </div>
+                            <div class="grid">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="Phone">
+                                    <label for="">Phone</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="" placeholder="E-mail Address">
+                                    <label for="">E-mail Address</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 7 -->
+                        <div class="cd-acfFieldMessage section">
+                            <h2>Your Information</h2>
+                            <p class="cd-subtxt">This will automatically place your display name, your City and State at the very end of your report and will add credibility to your DEBTcheck report. If you are afraid of retaliation and/or would like to remain anonymous, please change your first name, city, and state here.</p>
+                            <div class="grid">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="Display Name">
+                                    <label for="">Display Name</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="City">
+                                    <label for="">City</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="State">
+                                    <label for="">State</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="" placeholder="Country">
+                                    <label for="">Country</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 8 -->
+                        <div class="cd-acfFieldMessage section">
+                            <h2>Write your report in the following text box</h2>
+                            <div class="alert alert-danger" role="alert">
+                                <strong>DO NOT</strong></span> sign your name, or include any e-mail addresses in the report. Use the boxes below to automatically put your<br/>
+                                <strong>FIRST</strong></span> name, City and State at the very end of your Debt Check<br/>
+                            </div>
+                            <div class="form-floating">
+                                <textarea placeholder="Describe what happened, dates, and agreement details..."></textarea>
+                            </div>
+                        </div>
+                        <!-- 9 -->
+                        <div class="cd-acfFieldMessage section">
+                            <h2>Method of Payment on Transaction</h2>
+                            <p class="cd-subtxt">
+                                Dear Consumer,<br/>
+                                There are special protections for you if you have used a credit card, especially in an online transaction, including a federal law called the Fair Credit Billing Act. To help you get all the consumer protection you can get, DEBTcheck.net is collecting information about whether or not you used a credit card in your situation. Debtcheck.net is NOT asking for your credit card number, we don’t want it, and we are NOT charging you for anything! We only want to know whether you used a credit card to help you get all the consumer protection you can get. <br/>
+                                Method of Payment on Transaction
+                            </p>
+                            <div class="form-floating">
+                                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                    <option selected>Payment method</option>
+                                    <option value="1">Cash</option>
+                                    <option value="2">Bank Transfer</option>
+                                    <option value="3">Credit Card</option>
+                                    <option value="4">Check</option>
+                                    <option value="5">Other</option>
+                                </select>
+                                <label for="floatingSelect">Works with selects</label>
+                            </div>
+                        </div>
+                        <!-- 10 -->
+                        <div class="cd-acfFieldMessage section">
+                            <h2>Your Information</h2>
+                            <p class="cd-subtxt">Please ensure that any photos or videos that you are uploading do not contain any of the generally prohibited items outlined in</p>
+                            <p><strong>Section 2 of the Terms of Service.</strong></p>
+                        </div>
+                        <!-- 10 -->
+                        <div class="cd-acfFieldMessage section">
+                            <h2>Photo of Person or Business</h2>
+                            <p class="cd-subtxt">This will be the main photo for this report that will be seen in search results.</p>
+                            <div class="file-box">
+                                <input type="file" multiple />
+                            </div>                            
+                        </div>
+                        <!-- 10 -->
+                        <div class="cd-acfFieldMessage section">
+                            <h2>Upload Documents, Images and Videos</h2>
+                            <p class="cd-subtxt">Provide us with as much proof of this debt as possible. Examples include but are not limited to; Contracts, Receipts, Videos, Voice Recordings, Screenshots of Communication via email/text, and Photos. Be sure to remove any personal information that you do not want people to see.</p>
+                            <p class="cd-subtxt">NOTICE: Do not post an image or video that was created by someone other than you unless you have permission from the photographer or creator to post it. Please refer to our Terms of Use regarding violation of the intellectual property rights of others. If you have any trouble at all uploading your photos, please email us for support and include your photos with a caption for each photo you include. Send your email to support@debtcheck.net</p>
+                            <div class="upload-section">
+                                <h3>Upload documents</h3>
+                                <label class="upload-box">
+                                    <input type="file" multiple hidden>
+                                    <div class="upload-content">
+                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 16V4M12 4L8 8M12 4L16 8" stroke="#4CAF50" stroke-width="2"/>
+                                        <path d="M4 16V18C4 19.1 4.9 20 6 20H18C19.1 20 20 19.1 20 18V16" stroke="#4CAF50" stroke-width="2"/>
+                                    </svg>
+                                    <p><strong>Click to upload</strong> or drag & drop</p>
+                                    <span>Upload your multiple files here PDF, JPG, PNG, DOC (Max 10MB)</span>
+                                    </div>
+                                </label>
+                                <div class="upload-actions">
+                                    <button type="button">Add File</button>
+                                </div>
+                            </div>                          
+                            <div class="upload-section">
+                                <h3>Upload images</h3>
+                                <label class="upload-box">
+                                    <input type="file" multiple hidden>
+                                    <div class="upload-content">
+                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 16V4M12 4L8 8M12 4L16 8" stroke="#4CAF50" stroke-width="2"/>
+                                        <path d="M4 16V18C4 19.1 4.9 20 6 20H18C19.1 20 20 19.1 20 18V16" stroke="#4CAF50" stroke-width="2"/>
+                                    </svg>
+                                    <p><strong>Click to upload</strong> or drag & drop</p>
+                                    <span>Upload your multiple files here PDF, JPG, PNG, DOC (Max 10MB)</span>
+                                    </div>
+                                </label>
+                                <div class="upload-actions">
+                                    <button type="button">Add Image</button>
+                                </div>
+                            </div>                          
+                            <div class="upload-section">
+                                <h3>Video File</h3>
+                                <label class="upload-box">
+                                    <input type="file" multiple hidden>
+                                    <div class="upload-content">
+                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 16V4M12 4L8 8M12 4L16 8" stroke="#4CAF50" stroke-width="2"/>
+                                        <path d="M4 16V18C4 19.1 4.9 20 6 20H18C19.1 20 20 19.1 20 18V16" stroke="#4CAF50" stroke-width="2"/>
+                                    </svg>
+                                    <p><strong>Click to upload</strong> or drag & drop</p>
+                                    <span>Upload your multiple files here PDF, JPG, PNG, DOC (Max 10MB)</span>
+                                    </div>
+                                </label>
+                                <div class="upload-actions">
+                                    <button type="button">Add Video</button>
+                                </div>
+                            </div>                          
+                            <div class="upload-section">
+                                <div class="youtube-section">
+                                    <h3>Youtube link</h3>
+                                    <div class="youtube-input">
+                                        <span class="yt-icon">▶</span>
+                                        <input type="url" placeholder="Paste YouTube video link here">
+                                        <button type="button">Add Link</button>
+                                    </div>
+                                    <p class="helper-text">
+                                        Example: https://www.youtube.com/watch?v=xxxxx
+                                    </p>
+                                </div>
+                            </div>                          
+                        </div>
+                        <!-- submit -->
+                        <div class="cd-submit text-center mt-4">
+                           <button type="button" class="btn btn-warning btn-lg">Continue <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="cd-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-md-3 col-lg-3">
+                    <h6>Contact Info</h6>
+                    <ul>
+                        <li>
+                            <div class="d-flex align-items-baseline gap-3">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>                                        
+                                    PO Box 3963 Glendale, CA 91221 USA
+                                </div>
+                            </div>                        
+                        </li>                            
+                        <li>
+                            <div class="d-flex align-items-baseline gap-3">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>   
+                                    <a href="tel:+18185021981" class="cd-footlink">1 (818) 502-1981</a>                               
+                                </div>
+                            </div>                                 
+                        </li>
+                        <li>
+                            <div class="d-flex align-items-baseline gap-3">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <a href="mailto:info@debtcheck.net" class="cd-footlink">info@debtcheck.net</a>                                
+                                </div>
+                            </div> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-md-3 col-lg-3">
+                    <h6>Debt Collection Info</h6>
+                    <ul class="cd-liststyled">
+                        <li><a href="#" class="cd-footlink">Home</a></li>
+                        <li><a href="#" class="cd-footlink">About</a></li>
+                        <li><a href="#" class="cd-footlink">FAQ</a></li>
+                        <li><a href="#" class="cd-footlink">Register</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-md-3 col-lg-3">
+                    <h6>Navigation</h6>
+                    <ul class="cd-liststyled">
+                        <li><a href="#" class="cd-footlink">Home</a></li>
+                        <li><a href="#" class="cd-footlink">About</a></li>
+                        <li><a href="#" class="cd-footlink">FAQ</a></li>
+                        <li><a href="#" class="cd-footlink">Register</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-md-3 col-lg-3">
+                    <h6>Follow Us on</h6>
+                    <div class="cd-socialicon">
+                        <a href="https://www.facebook.com/" class="cd-link"><img src="images/icon/fb.png" class="img-fluid" alt="facebook"/></a>
+                        <a href="https://x.com/" class="cd-link"><img src="images/icon/twt.png" class="img-fluid" alt="TWT"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cd-copyright">
+            <p class="mb-0">DebtCheck &copy; 2026 All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Mobile View -->
+    <div class="mobile-sticky-footer">
+        <a href="tel:+18185021981"><i class="fa fa-phone" aria-hidden="true"></i></a>
+        <a href="mailto:info@debtcheck.net"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <a href="contact.html"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+        <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+        <a target="_blank" href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+
+    <!-- JS -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            // once: true
+        });
+    </script>
+</body>
+
+</html>
