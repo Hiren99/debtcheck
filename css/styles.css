@@ -151,7 +151,7 @@ body {
 /* custom css */
 p {letter-spacing: 0.1px;}
 ul {list-style: none;padding-left: 0;margin-bottom: 0;}
-a, a:hover {text-decoration: none;transition: all 0.3s ease;}
+a, a:hover {text-decoration: none;transition: all 0.3s ease;display: inline-block;}
 button {outline: none;transition: all 0.3s ease;border: 0;}
 .section {width: 100%;overflow: hidden;}
 
@@ -242,8 +242,8 @@ button {outline: none;transition: all 0.3s ease;border: 0;}
 .cd-heroSection .cd-serchform:hover input[type="text"] {background-color: #f1f1f1;color: #555;}
 .cd-heroSection .cd-SearchBtn {background-color: var(--yellow);color: var(--dark);border-radius: 0 4px 4px 0;min-height: 56px;padding: 15px 38px;}
 
+.cd-mainwrap {margin: -36px auto -51px;}
 /* ---- asseen --- */
-.cd-asSeen .container {margin-top: -36px;}
 .cd-asSeen .cd-working {background-color: #f5f5f5;padding: 10px;text-align: center;}
 .cd-asSeen .cd-working p {font-size: 18px;color: #a7a7a7;font-style: italic;}
 .cd-asSeen .cd-title { margin: 0px;font-size: 24px;color: #222222;font-weight: 400;}
@@ -251,7 +251,7 @@ button {outline: none;transition: all 0.3s ease;border: 0;}
 .cd-asSeen .cd-card h6 { color: #85bb65;font-size: 1em;font-weight: 400;margin: 16px 0 11px;text-transform: uppercase;}
 .cd-asSeen .cd-card .cd-testimonial { background-color: #f1f1f1;border-radius: 6px;color: #0f0f0f;font-family: 'tinos-regular';font-size: 17px;margin: 0;padding: 17px 20px;font-style: italic;line-height: normal;position: relative;}
 .cd-asSeen .cd-card .cd-testimonial::after { display: block;margin: 16px 0 -28px;height: 12px;width: 29px;content: '';background-image: url('../images/icon/testimonial-bg-arow-1.png');background-repeat: no-repeat;background-position: center center;}
-.cd-asSeen .cd-card .cd-autor {background-image: url("testimonial-pic-1.png");background-position: left center;background-repeat: no-repeat;color: #0f0f0f;font-size: 18px;font-style: normal;margin-bottom: 0;}
+.cd-asSeen .cd-card .cd-autor {background-position: left center;background-repeat: no-repeat;color: #0f0f0f;font-size: 18px;font-style: normal;margin-bottom: 0;}
 .cd-asSeen .cd-card .cd-autor small {font-size: 12px;color: #bababa;}
 .cd-asSeen .cd-secondsection {background-color: var(--white);padding-top: 2.5rem;}
 
@@ -276,7 +276,7 @@ button {outline: none;transition: all 0.3s ease;border: 0;}
 
 /* --- more --- */
 .cd-more .container {background: var(--white);padding: 16px;}
-.cd-more .cd-content {background:radial-gradient(ellipse at center,  #669448 0%,#6fad54 100%);text-align: center;padding: 2rem;}
+.cd-more .cd-content {background:radial-gradient(ellipse at center,  #669448 0%,#6fad54 100%);text-align: center;padding: 2rem;border: 15px solid var(--white);}
 .cd-more .cd-content .cd-title { font-weight: 400;font-size: 36px;margin: 0px;color:var(--white);}
 .cd-more .cd-content p { color: var(--white);font-size: 14px;font-style: normal;line-height: 22px;margin: 19px 0;}
 
@@ -302,14 +302,14 @@ button {outline: none;transition: all 0.3s ease;border: 0;}
 	right: 0;
 	bottom: 0;
 	z-index: 9999;
-	background-color: #201d1e;
+	background-color: var(--primary);
 }
 .mobile-sticky-footer a {
 	float: left;
 	width: 20%;
 	padding: 3px 10px;
 	text-align: center;
-	color: var(--btn-bg);
+	color: #2d3926;
 	font-size: 26px;
 }
 .mobile-sticky-footer a:hover {
@@ -372,18 +372,28 @@ button {outline: none;transition: all 0.3s ease;border: 0;}
 }
 @media (max-width: 991px) {
     .cd-topbar {display: none;}
-    #return-to-top {bottom: 55px;}
-    
+    #return-to-top {bottom: 100px;}
+    .cd-navheader button.navbar-toggler {border: 0;padding: 0;}
+    .cd-footer {margin-bottom: 45px;}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     
 }
 @media (max-width: 767px) {    
+    .cd-asSeen .cd-working {display: none;}
     
 }
 @media only screen and (min-width: 640px) and (max-width: 767px) {
     
 }
-@media (max-width: 576px) {
-    
+@media (max-width: 639px) {
+    .cd-howitworks .cd-innerContent h2 {font-size: 28px;margin-bottom: 10px;}
+    .cd-navheader .nav-link {font-size: 1em;}
+    .cd-navheader .cd-navregisterBtn {margin: 1rem 0;width: 100%;}
+    .cd-asSeen .cd-card {margin-top: 2rem;}
+    .cd-howitworks .cd-innerContent {padding: 1rem;}
+    .cd-howitworks .cd-icon {text-align: center;}
+    .cd-whocanus .cd-header .cd-title {flex-wrap: wrap;font-size: 28px;}
+    .cd-anyone .cd-title {font-size: 40px;}
+    .cd-anyone .cd-list ul {column-count: 1;}
 }
